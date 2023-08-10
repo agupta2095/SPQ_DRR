@@ -8,7 +8,6 @@ This project aims to implement a set of differentiated services using the ns-3 s
 ## Developers
 
 - Developer 1: [Akanksha Gupta]
-- Developer 2: [YaoMin Zhang]
 
 ## Requirements
 
