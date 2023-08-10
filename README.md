@@ -1,5 +1,5 @@
 # SPQ_DRR
-implement two quality-of-service (QoS) mechanisms: SPQ and DRR in ns-3 network simulator
+implement Two quality-of-service (QoS) mechanisms: SPQ and DRR in ns-3 network simulator
 
 # Differentiated Services Implementation in ns-3
 
