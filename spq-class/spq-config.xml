@@ -1,0 +1,30 @@
+<acllist>
+  <acl id="aclFirstClass">
+    <entry>
+      <destinationportnumber>912</destinationportnumber>
+      <sourceaddress>10.1.1.1</sourceaddress>
+      <protocol>17</protocol>
+    </entry>
+  </acl>
+</acllist>
+<classlist>
+  <class id="class1" aclid="aclFirstClass">
+    <maxQueueSize>100</maxQueueSize>
+    <priority>0</priority>
+  </class>
+</classlist>
+<acllist>
+  <acl id="aclSecondClass">
+    <entry>
+      <destinationportnumber>913</destinationportnumber>
+      <sourceaddress>10.1.1.1</sourceaddress>
+      <protocol>17</protocol>
+    </entry>
+  </acl>
+</acllist>
+<classlist>
+  <class id="class2" aclid="aclSecondClass">
+    <maxQueueSize>100</maxQueueSize>
+    <priority>1</priority>
+  </class>
+</classlist>

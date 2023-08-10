@@ -1,0 +1,42 @@
+<acllist>
+  <acl id="aclFirstClass">
+    <entry>
+      <destinationportnumber>903</destinationportnumber>
+      <protocol>17</protocol>
+    </entry>
+  </acl>
+</acllist>
+<classlist>
+  <class id="class1" aclid="aclFirstClass">
+    <maxQueueSize>1000</maxQueueSize>
+    <quantum>400</quantum>
+  </class>
+</classlist>
+<acllist>
+  <acl id="aclSecondClass">
+    <entry>
+      <destinationportnumber>904</destinationportnumber>
+      <protocol>17</protocol>
+    </entry>
+  </acl>
+</acllist>
+<classlist>
+  <class id="class2" aclid="aclSecondClass">
+    <maxQueueSize>1000</maxQueueSize>
+    <quantum>800</quantum>
+  </class>
+</classlist>
+<acllist>
+  <acl id="aclThirdClass">
+    <entry>
+      <destinationportnumber>905</destinationportnumber>
+      <protocol>17</protocol>
+    </entry>
+  </acl>
+</acllist>
+<classlist>
+  <class id="class3" aclid="aclThirdClass">
+    <maxQueueSize>1000</maxQueueSize>
+    <quantum>1200</quantum>
+  </class>
+</classlist>
